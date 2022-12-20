@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/denis/Documents/HSE/Programming for Blockchain/Homeworks/hw7/contracts/RockPaperScissors.sol": {
+      "lastModificationDate": 1671500775356,
+      "contentHash": "ef78897af18f1c72417f2fb2703e12df",
+      "sourceName": "contracts/RockPaperScissors.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.5"
+      ],
+      "artifacts": [
+        "RockPaperScissors"
+      ]
+    }
+  }
+}

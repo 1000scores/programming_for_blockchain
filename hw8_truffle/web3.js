@@ -1,9 +1,0 @@
-const Web3 = require('web3')
-var web3 = new Web3(new Web3.providers.HttpProvider("https://goerli.infura.io/v3/784616a971124792a5fee4f61c88522c"));
-const address = "0x64BAb6EdCc68D990a797B12F0a57Bab773FB3D51";
-const ABI = [{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"GotCredits","type":"event"},{"inputs":[],"name":"contractBalance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getValue","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"paySomeCredits","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_value","type":"uint256"}],"name":"setValue","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"value","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address payable","name":"_to","type":"address"}],"name":"withdrawAll","outputs":[],"stateMutability":"nonpayable","type":"function"}];
-web3.eth.getBalance; // проверяем
-const myContract = new web3.eth.Contract(ABI, address);
-await myContract.methods.setValue(12345).call({value: web3.utils.toWei('0.0001', 'ether')}).then(console.log);
-var HDWalletProvider = require("truffle-hdwallet-provider");
-let provider = new HDWalletProvider("be6747fe6f238a4851e95c00ad92d6f0810a7c90d743bc3ca1e8ff547bea742e", "https://goerli.infura.io/v3/784616a971124792a5fee4f61c88522c");
