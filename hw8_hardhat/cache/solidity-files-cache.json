@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/denis/Documents/HSE/Programming for Blockchain/Homeworks/hw8_hardhat/contracts/DummyContract.sol": {
+      "lastModificationDate": 1670647548394,
+      "contentHash": "91365b298d279db8b05b7dae24f0a9b2",
+      "sourceName": "contracts/DummyContract.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "DummyContract"
+      ]
+    }
+  }
+}
